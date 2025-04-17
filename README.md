@@ -1,4 +1,3 @@
-# Recipeplatform
 
 # Rezeptplatform Project
 
@@ -43,8 +42,7 @@ To run the **Rezeptplatform** locally, follow these steps:
     mvn spring-boot:run
     ```
 
-4. **Access the application**:
-    The application will be running on `http://localhost:8080`.
+
 
 ## Project Structure
 
@@ -69,20 +67,14 @@ To run the **Rezeptplatform** locally, follow these steps:
 
 Below is a detailed log of the work done by each team member in the project.
 
-| Datum | Uhrzeit von - Uhrzeit bis | Dauer in Minuten | Name | Arbeitbeschreibung |
-|-------|---------------------------|------------------|------|--------------------|
-|       |                           |                  | Olsi Mbrozi | Verantwortlich für das Erstellen und Strukturieren der Entitäten, DTOs und Tabellenstruktur der Datenbank |
-|       |                           |                  | Franko Keci | Verantwortlich für die Implementierung der Service- und Controller-Klassen sowie die Logik zum Erstellen und Abrufen von Rezepten und Zutaten |
-|       |                           |                  | Olsi Mbrozi | Entwurf und Implementierung der `Ingredient`, `Recipe` Entitäten und ihre Datenbankbeziehungen |
-|       |                           |                  | Franko Keci | Entwicklung der API-Endpunkte in den Controllern und Business-Logik in den Services |
-|       |                           |                  | Olsi Mbrozi | Erstellung und Pflege der DTOs für `IngredientResponse` und `RecipeResponse` |
-|       |                           |                  | Franko Keci | Implementierung der Logik zur Verknüpfung von Rezepten mit Zutaten und deren Speicherung in der Datenbank |
-
-## Contribution
-
-If you would like to contribute to this project, feel free to open issues or submit pull requests. Please make sure to follow the guidelines for coding and documentation.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+| Date       | Time from - Time until | Duration in minutes | Name         |  Work description                                                                 |
+|-------------|---------------------------|------------------|--------------|-------------------------------------------------------------------------------------|
+| 10.04.2025  | 17:00 - 17:45              | 45               | Olsi Mbrozi  | Design and implementation of the `Ingredient` and `Recipe` entities               |
+| 11.04.2025  | 18:30 - 19:15              | 45               | Olsi Mbrozi  | Creation of the table structure and many-to-many relationships between recipes and ingredients |
+| 12.04.2025  | 18:00 - 18:30              | 30               | Olsi Mbrozi  | Creation of the `IngredientResponse` and `RecipeResponse` DTO classes            |
+| 13.04.2025  | 19:00 - 19:45              | 45               | Franko Keci  | Development of the service classes for `Ingredient` and `Recipe |
+| 14.04.2025  | 20:00 - 20:45              | 45               | Franko Keci  | Implementation of the REST endpoints in `IngredientController` and `RecipeController` |
+| 15.04.2025  | 20:30 - 21:00              | 30               | Olsi Mbrozi  | Development of the mapper classes for DTO transformation                              |
+| 16.04.2025  | 19:00 - 19:45              | 45               | Franko Keci  | Logic for linking recipes with ingredients and storing them in the database |
+| 17.04.2025  | 17:00 - 17:30              | 30               | Franko Keci  | Test and debug recipe creation with existing ingredients                 |
 
