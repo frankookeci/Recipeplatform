@@ -27,7 +27,7 @@ To run the **Rezeptplatform** locally, follow these steps:
 
 1. **Clone the repository**:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/frankookeci/Recipeplatform.git
     cd rezeptplatform
     ```
 
