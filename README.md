@@ -3,7 +3,7 @@
 
 ## Project Description
 
-The **Rezeptplatform** is a web-based application developed using Spring Boot. The platform allows users to manage recipes, including ingredients and categories. It supports operations such as creating, retrieving, and displaying recipes with their corresponding ingredients.
+The **Rezeptplatform** is a web-based REST-API developed using Spring Boot. The platform allows users to manage recipes, including ingredients and categories. It supports operations such as creating, retrieving, and displaying recipes with their corresponding ingredients.
 
 The project is divided into multiple layers, including **DTO**, **controller**, **entity**, **repository**, and **service**. Each layer plays a specific role in maintaining a clean and modular architecture.
 
@@ -72,7 +72,7 @@ Below is a detailed log of the work done by each team member in the project.
 | 10.04.2025  | 17:00 - 17:45              | 45               | Olsi Mbrozi  | Design and implementation of the `Ingredient` and `Recipe` entities               |
 | 11.04.2025  | 18:30 - 19:15              | 45               | Olsi Mbrozi  | Creation of the table structure and many-to-many relationships between recipes and ingredients |
 | 12.04.2025  | 18:00 - 18:30              | 30               | Olsi Mbrozi  | Creation of the `IngredientResponse` and `RecipeResponse` DTO classes            |
-| 13.04.2025  | 19:00 - 19:45              | 45               | Franko Keci  | Development of the service classes for `Ingredient` and `Recipe |
+| 13.04.2025  | 19:00 - 19:45              | 45               | Franko Keci  | Development of the service classes for `Ingredient` and `Recipe` |
 | 14.04.2025  | 20:00 - 20:45              | 45               | Franko Keci  | Implementation of the REST endpoints in `IngredientController` and `RecipeController` |
 | 15.04.2025  | 20:30 - 21:00              | 30               | Olsi Mbrozi  | Development of the mapper classes for DTO transformation                              |
 | 16.04.2025  | 19:00 - 19:45              | 45               | Franko Keci  | Logic for linking recipes with ingredients and storing them in the database |
